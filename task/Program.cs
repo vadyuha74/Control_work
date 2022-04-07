@@ -27,7 +27,7 @@ void FillArrayRand(string[] strs) // заполнение массива  слу
     }
 }
 
-string[] SelectArrStr(string[] arr)
+string[] SelectArrStr(string[] arr) // Из строчного массива делаем массив со строками меньше 4 символов
 {
     int j = 0;
     for (int i = 0; i < arr.Length; i++)
